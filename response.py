@@ -71,7 +71,7 @@ def callback():
             continue
         if not isinstance(event.message, TextMessage):
             continue
-        
+
         # friend photo reponser
         if event.message.text in photo_dict:
             line_bot_api.reply_message(
@@ -96,7 +96,7 @@ def callback():
 
         # stock information reponser
         if event.message.text[0] == 'V' or event.message.text[0] == 'v':
-            
+
             # line_bot_api.reply_message(
             #     event.reply_token,
             #     TextSendMessage(text='欸你先等一下，證交所ban人啦')
@@ -109,7 +109,7 @@ def callback():
             stock_capacity = str(capacity(stock_num))
             stock_accu_capacity = str(accu_capacity(stock_num))
             stock_esti_capacity = str(estimated_capacity(stock_accu_capacity))
-            
+
             line_bot_api.reply_message(
                 event.reply_token,
                 FlexSendMessage(
@@ -188,21 +188,21 @@ def callback():
 
         # stock realtime information reponser
         if event.message.text[0] == 'R':
-            
+
             stock_num = event.message.text[1:]
             stock_name = name(stock_num)
             stock_realtime = str(real_time(stock_num))
-            
+
             line_bot_api.reply_message(
                 event.reply_token,
                 TextSendMessage(text=stock_realtime)
-            )             
+            )
 
         # test
         if event.message.text == 'test':
             line_bot_api.reply_message(
                 event.reply_token,
-                TextSendMessage(text=str(accu_capacity_multi([k for k,v in stock_nums.items()])))
+                TextSendMessage(text=str('測試'))
             )
     return 'OK'
 
