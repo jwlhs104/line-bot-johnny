@@ -9,5 +9,7 @@ photo_dict = {
     '爸仔' :'https://scontent.ftpe8-2.fna.fbcdn.net/v/t1.0-9/1506654_666049786791371_602766181_n.jpg?_nc_cat=101&ccb=2&_nc_sid=cdbe9c&_nc_ohc=0WekjUBG_pkAX-cdmGj&_nc_ht=scontent.ftpe8-2.fna&oh=3be09e21777443d797ac5ed094a038cf&oe=6013053A',
     '樂仔' :'https://scontent.ftpe8-3.fna.fbcdn.net/v/t1.0-9/10423692_10152599429547523_1788026016039233338_n.jpg?_nc_cat=106&ccb=2&_nc_sid=cdbe9c&_nc_ohc=mXDc11TyqD0AX-OcCeU&_nc_ht=scontent.ftpe8-3.fna&oh=6a0cf69bcc6c47d0d986dd6fbc7497dc&oe=6014934E',
     '哥仔' :'https://scontent.ftpe8-4.fna.fbcdn.net/v/t1.0-9/291991_267419753281690_420088190_n.jpg?_nc_cat=110&ccb=2&_nc_sid=cdbe9c&_nc_ohc=K19RHUHb51EAX_cEA8M&_nc_ht=scontent.ftpe8-4.fna&oh=e1e3df7e2aa98e3e7272cf0545d2d490&oe=6014527B',
-    '咚仔' :'https://scontent.ftpe8-1.fna.fbcdn.net/v/t1.0-9/118980304_2763302290661813_1625393359976691018_o.jpg?_nc_cat=109&ccb=2&_nc_sid=09cbfe&_nc_ohc=V6BZeTUgwYwAX-uHdOz&_nc_ht=scontent.ftpe8-1.fna&oh=af371a0d2b9254eb31579911301a8eaf&oe=60147AF3'
+    '咚仔' :'https://scontent.ftpe8-1.fna.fbcdn.net/v/t1.0-9/118980304_2763302290661813_1625393359976691018_o.jpg?_nc_cat=109&ccb=2&_nc_sid=09cbfe&_nc_ohc=V6BZeTUgwYwAX-uHdOz&_nc_ht=scontent.ftpe8-1.fna&oh=af371a0d2b9254eb31579911301a8eaf&oe=60147AF3',
+    '熊的力量' :'https://cdn2.ettoday.net/images/5170/5170307.jpg',
+    'Q仔' :'https://i.imgur.com/jOjElNV.jpg'
 }

@@ -204,6 +204,13 @@ def callback():
                 event.reply_token,
                 TextSendMessage(text=str('測試'))
             )
+
+        
+        if event.message.text == '中興電':
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='中興電法說會這種是假利空，就是三大法人都在賣，看上去很危險，其實沒什麼用，打個比方吧，就是我押進我的身家，他跌我一屁股，我雖然死了，但我還是不服。')
+            )
     return 'OK'
 
 
